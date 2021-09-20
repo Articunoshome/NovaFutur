@@ -12,4 +12,4 @@
 
    The largest element in the resulting sum matrix will be the location where Mr Z has to move in order to have the greates selection of pizzas.
 
-3. The complexity of the solution will be O((N^2)) where N in the number of rows/columns of the matrix.
+3. The complexity of the solution will be O((N^2)) where N in the number of rows/columns of the matrix. I think this is the best solution that I could come up with.
