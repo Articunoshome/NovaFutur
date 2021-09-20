@@ -5,11 +5,11 @@
 
    Before I proceed with the solution to the problem, my first step will be to validate whether all the variable are within the permissible range.
 
-   In order to solve this question, for each pizzeria, I would create a N*N matrix first where where every square represents one
+   In order to solve this question, for each pizzeria, I would create a N*N matrix first where every square represents one
    block of the city. In the matrix, the element or the location which a pizzeria can deliver to will be 1 and the other elements
    will be 0. Also, the location of the pizzeria will be marked as 1 in the matrix. Then, I would sum up the matrices for each pizzeria.
    Before summing up the matrices, I also need to make sure that the matrices are flipped and they have 0-indexing rather than 1-indexing.
 
-   The largest element in the resulting sum matrix will be the location where Mr Z has to move in order to have the greates selection of pizzas.
+   The largest element in the resulting sum matrix will be the location where Mr Z has to move in, in order to have the greates selection of pizzas.
 
 3. The complexity of the solution will be O((N^2)) where N in the number of rows/columns of the matrix. I think this is the best solution that I could come up with.
